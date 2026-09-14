@@ -1,7 +1,7 @@
 # Project Brief: CV-to-Company Job Matcher
 
 ## Overview
-Build an app or website that takes a user's CV and checks a curated list of target companies for open roles that match their profile. It should surface relevant vacancies without the user having to manually search each company's careers page.
+Build a website that takes a user's CV and checks a curated list of target companies for open roles that match their profile. It should surface relevant vacancies without the user having to manually search each company's careers page.
 
 ## Core Flow
 1. **Upload CV** — user uploads their CV (PDF/DOCX).
@@ -42,8 +42,3 @@ Palantir (London/Dublin), Databricks, Hugging Face, Mistral AI, Cohere, Scale AI
 **Tier 10 — Irish Tech & Emerging**
 Teamwork (Cork), Intercom, Wayflyer, Verizon Connect (Dublin), Workday (Dublin), Stripe (Dublin), Zendesk (Dublin), Xperi, Sensata Technologies, Jabil (Blue Sky Innovation)
 
-## Open Questions to Resolve Before Building
-- How will the app actually check each company's openings — scraping career pages, using a job-board API (e.g. LinkedIn, Indeed), or a mix?
-- Should matches refresh automatically (e.g. daily) or only on-demand when the user runs a search?
-- Web app, mobile app, or both?
-- Should it store/track applications the user has already made?
